@@ -1,0 +1,286 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Choose a modern font */
+    background-color: #121212; /* Dark background - Onyx */
+    color: #ffffff; /* White text for contrast */
+    margin: 0;
+}
+
+/* Header Styles (Customize as needed) */
+header {
+    background-color: #1e1e1e; /* Slightly lighter shade for contrast */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero-content {
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5); /* Text shadow */
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.hero-image {
+    max-width: 500px; /* Adjust as needed */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Image shadow */
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Featured Projects */
+.featured-projects {
+    padding: 40px;
+}
+
+.project {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 40px;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.skills li {
+    margin: 10px;
+    padding: 15px 25px;
+    background-color: #282828;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ... (Previous CSS styles) ... */
+
+
+  
+  nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block; /* Arrange items horizontally */
+    margin: 0 10px; /* Add space between items */
+  }
+  
+  nav a {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underlines from links */
+    font-weight: bold;
+    transition: color 0.2s ease; /* Smooth color transition on hover */
+  }
+  
+  nav a:hover {
+    color: #f0f0f0; /* Slightly lighter color on hover */
+  }
+
+  /* ... (Previous CSS styles) ... */
+
+nav {
+    background-color: #1e1e1e; 
+    padding: 10px 20px; /* Reduced padding for a smaller navbar */
+    text-align: center; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); 
+    position: fixed; /* Lock the navbar to the top */
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 100; /* Ensure the navbar is on top of other elements */
+  }
+  
+  /* ... (Rest of the nav styles) ... */
+/* ... Add more styles for other sections (About, Portfolio, Contact) */
+
+
+
+
+
+
+/***********************************************************************
+******************************** PORTFOLIO *****************************/
+
+/* ... (Previous CSS styles) ... */
+
+/* Featured Projects */
+.featured-projects {
+    padding: 40px;
+  }
+  
+  .project {
+    background-color: #1e1e1e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); 
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .project h3 {
+    color: #ffffff; /* White text color for headings */
+  }
+  
+  .project p {
+    color: #f0f0f0; /* Slightly lighter color for descriptions */
+    line-height: 1.6;
+  }
+  
+  .project a {
+    color: #00a0d1; /* Example link color */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s ease;
+  }
+  
+  .project a:hover {
+    color: #0077a0; /* Darker link color on hover */
+  }
+
+
+
+  /* ABOUT PAGE */
+
+
+  .about {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: left; 
+    flex-direction: row-reverse; /* Reverse the order of items */
+  }ext-align: left; /* Align text to the left */
+  }
+  
+  .about-content {
+    flex: 1; /* Allow content to take up available space */
+    padding: 20px;
+  }
+  
+  .about-content h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .about-content p {
+    color: #f0f0f0;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .about-image {
+    flex: 1; /* Allow image to take up available space */
+    max-width: 400px; /* Adjust as needed */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 45px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners to the image */
+  }
+
+
+  /* CONTACT ME */
+
+  /* ... (Previous CSS styles) ... */
+
+.contact {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    color: #f0f0f0;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form elements (optional) */
+  .contact form input[type="text"],
+  .contact form input[type="email"],
+  .contact form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .social-links a:hover {
+    color: #00a0d1;
+  }
